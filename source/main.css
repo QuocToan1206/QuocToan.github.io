@@ -5,6 +5,32 @@ body{
 	background-size: 100%;
 	
 }
+.search-box{
+	position: absolute;
+	top: 120px;
+	left: 1000px;
+	transform: translate(-50%,-50%);
+	background: rgb(215, 200, 235);
+	height: 25px;
+	border-radius: 25px;
+	padding: 10px;
+}
+.search-box:hover > .search-txt{
+	width: 240px;
+	padding: 0 6px;
+}
+.search-txt{
+	border: none;
+	background:none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
 h1{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-style: italic;
@@ -40,9 +66,13 @@ display: block;
 height: 50px;
 line-height: 50px;
 padding:0px 40px 0px 40px;
-color: rgba(229, 214, 233, 0.822);
+color: white;
 font-size: 20px;
 border-right: 2px solid #cccccc;
+}
+#menu_top ul li a:hover{
+	color:red;
+	background-color: violet;
 }
 
 #main #left {
@@ -66,7 +96,7 @@ border-right: 2px solid #cccccc;
 }
 #main #left ul li h2 {
 	font-size: 20px;
-	color: rgba(13, 105, 243, 0.979);
+	color: lawngreen;
 	font-style: italic;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
