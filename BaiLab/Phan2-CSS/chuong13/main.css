@@ -1,5 +1,12 @@
-body {
-    background-color: slategray;
+body 
+{
+background-color: #d2dc9d;
+margin-bottom: 0;
+padding: 3em 1em 2em 1em;
+text-align: center;
+}
+p{
+border: 1px solid;
 }
 h1 {
     color: yellowgreen;
