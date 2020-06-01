@@ -65,9 +65,9 @@ text-decoration: none;
 display: block;
 height: 50px;
 line-height: 50px;
-padding:0px 40px 0px 40px;
+padding:0px 30px 0px 35px;
 color: white;
-font-size: 20px;
+font-size: 15px;
 border-right: 2px solid #cccccc;
 }
 #menu_top ul li a:hover{
@@ -76,9 +76,11 @@ border-right: 2px solid #cccccc;
 }
 
 #main #left {
-	width: 800px;
+	border: 5px solid rgb(125, 170, 223);
+	width: 560px;
 	float: left;
-	min-height: 400px;
+	min-height: 530x;
+	border-radius: 30px;
 }
 #main #left ul {
 	margin: 0px;
@@ -102,10 +104,13 @@ border-right: 2px solid #cccccc;
 }
 
 #footer{
-	width: 1300px;
+	width: 100%;
 	text-align: center;
-	height: 100px;
+	height: 200px;
 	clear: left;
 	color: rgb(34, 5, 29);
 	font-size: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
