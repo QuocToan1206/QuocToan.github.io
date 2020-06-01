@@ -2,13 +2,16 @@ body{
 	background-image: url(if.jpg);
 	font-family: tahoma;
 	font-size: 13px;
-	background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	
 	
 }
 .search-box{
 	position: absolute;
-	top: 120px;
-	left: 1000px;
+	top: 15%;
+	left: 80%;
 	transform: translate(-50%,-50%);
 	background: rgb(215, 200, 235);
 	height: 25px;
