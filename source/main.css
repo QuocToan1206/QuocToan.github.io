@@ -106,9 +106,9 @@ border-right: 2px solid #cccccc;
 #footer{
 	width: 100%;
 	text-align: center;
-	height: 200px;
+	height: 150px;
 	clear: left;
-	color: rgb(34, 5, 29);
+	color: rgb(236, 10, 66);
 	font-size: 15px;
 	display: flex;
 	align-items: center;
